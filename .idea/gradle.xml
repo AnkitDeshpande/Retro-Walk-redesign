@@ -9,19 +9,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/authentication" />
             <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/authentication" />
             <option value="$PROJECT_DIR$/common/core" />
+            <option value="$PROJECT_DIR$/common/document" />
             <option value="$PROJECT_DIR$/common/document-manager" />
-            <option value="$PROJECT_DIR$/common/multitenancy" />
             <option value="$PROJECT_DIR$/common/notification" />
-            <option value="$PROJECT_DIR$/core" />
-            <option value="$PROJECT_DIR$/document-manager" />
-            <option value="$PROJECT_DIR$/multitenancy" />
-            <option value="$PROJECT_DIR$/notification" />
-            <option value="$PROJECT_DIR$/organisation-management" />
-            <option value="$PROJECT_DIR$/retro-walk" />
-            <option value="$PROJECT_DIR$/user-management" />
           </set>
         </option>
       </GradleProjectSettings>

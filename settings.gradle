@@ -1,14 +1,14 @@
-rootProject.name = 'Retro-Walk-redesign'
-
-include 'authentication', 'common', 'core', 'notification', 'multitenancy',
-        'document-manager', 'organisation-management', 'user-management', 'retro-walk'
-
-include 'common:core', 'common:notification', 'common:document-manager', 'common:multitenancy'
-include 'retro-walk:organisation-management', 'retro-walk:user-management'
-
+rootProject.name = 'retro-walk-server'
+include 'common'
+include 'common'
+include 'common:core'
 findProject(':common:core')?.name = 'core'
+include 'common:notification'
 findProject(':common:notification')?.name = 'notification'
+include 'common:document'
+findProject(':common:document')?.name = 'document'
+include 'common:document-manager'
 findProject(':common:document-manager')?.name = 'document-manager'
-findProject(':common:multitenancy')?.name = 'multitenancy'
-findProject(':retro-walk:organisation-management')?.name = 'organisation-management'
-findProject(':retro-walk:user-management')?.name = 'user-management'
+include 'common:authentication'
+findProject(':common:authentication')?.name = 'authentication'
+
