@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/authentication" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/core" />
+            <option value="$PROJECT_DIR$/common/document-manager" />
+            <option value="$PROJECT_DIR$/common/multitenancy" />
+            <option value="$PROJECT_DIR$/common/notification" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/document-manager" />
+            <option value="$PROJECT_DIR$/multitenancy" />
+            <option value="$PROJECT_DIR$/notification" />
+            <option value="$PROJECT_DIR$/organisation-management" />
+            <option value="$PROJECT_DIR$/retro-walk" />
+            <option value="$PROJECT_DIR$/user-management" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
