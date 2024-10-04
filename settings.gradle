@@ -16,4 +16,8 @@ include 'organisation:platform-management'
 findProject(':organisation:platform-management')?.name = 'platform-management'
 include 'organisation:user-management'
 findProject(':organisation:user-management')?.name = 'user-management'
+include 'common:multitenant'
+findProject(':common:multitenant')?.name = 'multitenant'
+include 'common:multitenant'
+findProject(':common:multitenant')?.name = 'multitenant'
 

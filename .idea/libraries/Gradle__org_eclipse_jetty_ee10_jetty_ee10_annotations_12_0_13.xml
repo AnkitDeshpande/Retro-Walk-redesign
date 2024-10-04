@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.eclipse.jetty.ee10:jetty-ee10-annotations:12.0.13" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.eclipse.jetty.ee10" artifactId="jetty-ee10-annotations" version="12.0.13" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.ee10/jetty-ee10-annotations/12.0.13/da4d3b6b7122a1f6e0470e33d5419d3a719c8399/jetty-ee10-annotations-12.0.13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

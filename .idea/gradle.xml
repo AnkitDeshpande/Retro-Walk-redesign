@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/common/core" />
             <option value="$PROJECT_DIR$/common/document" />
             <option value="$PROJECT_DIR$/common/document-manager" />
+            <option value="$PROJECT_DIR$/common/multitenant" />
             <option value="$PROJECT_DIR$/common/notification" />
             <option value="$PROJECT_DIR$/organisation" />
             <option value="$PROJECT_DIR$/organisation/platform-management" />
