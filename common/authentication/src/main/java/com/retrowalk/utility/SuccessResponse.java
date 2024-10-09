@@ -1,4 +1,4 @@
-package com.retrowalk.models;
+package com.retrowalk.utility;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -38,7 +38,7 @@ public class SuccessResponse<T> {
      *
      */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
-    Date timeStamp = new Date();
+    final Date timeStamp = new Date();
 
     /**
      * Status code.

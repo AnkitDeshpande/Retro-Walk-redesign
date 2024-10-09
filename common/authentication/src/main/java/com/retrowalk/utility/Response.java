@@ -1,4 +1,4 @@
-package com.retrowalk.models;
+package com.retrowalk.utility;
 
 import lombok.extern.slf4j.Slf4j;
 

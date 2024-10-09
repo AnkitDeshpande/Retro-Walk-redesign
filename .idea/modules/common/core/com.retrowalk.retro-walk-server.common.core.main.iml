@@ -76,5 +76,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.angus:angus-activation:2.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jaxb:txw2:4.0.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.istack:istack-commons-runtime:4.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-core:6.3.3" level="project" />
   </component>
 </module>
