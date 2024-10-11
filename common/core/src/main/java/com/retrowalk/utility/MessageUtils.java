@@ -13,7 +13,7 @@ public class MessageUtils {
      * Get the message from properties file based on current local.
      *
      * @param message - The message key
-     * @param args -    The argument list
+     * @param args    -    The argument list
      * @return String - The message
      */
     public String getMessage(final String message, final Object[] args) {

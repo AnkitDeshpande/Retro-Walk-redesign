@@ -30,7 +30,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/organisation/user-management/com.retrowalk.retro-walk-server.organisation.user-management.main.iml" filepath="$PROJECT_DIR$/.idea/modules/organisation/user-management/com.retrowalk.retro-walk-server.organisation.user-management.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/organisation/user-management/com.retrowalk.retro-walk-server.organisation.user-management.test.iml" filepath="$PROJECT_DIR$/.idea/modules/organisation/user-management/com.retrowalk.retro-walk-server.organisation.user-management.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.retrowalk.retro-walk-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.retrowalk.retro-walk-server.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multitenant.iml" filepath="$PROJECT_DIR$/multitenant.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/retro-walk-server.iml" filepath="$PROJECT_DIR$/.idea/modules/retro-walk-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/retro-walk-server.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/retro-walk-server.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/authentication/retro-walk-server.common.authentication.iml" filepath="$PROJECT_DIR$/.idea/modules/common/authentication/retro-walk-server.common.authentication.iml" />

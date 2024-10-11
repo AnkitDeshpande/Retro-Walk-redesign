@@ -6,19 +6,38 @@
   <component name="ChangeListManager">
     <list default="true" id="669e72f2-e763-4bfd-b799-5c7bffee3287" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_classgraph_classgraph_4_8_83.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_core_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_schema_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_spi_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_spring_web_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_spring_webflux_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_spring_webmvc_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_swagger2_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_springfox_springfox_swagger_common_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_annotations_2_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_attoparser_attoparser_2_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mapstruct_mapstruct_1_3_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_thymeleaf_3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_3_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_thymeleaf_thymeleaf_spring6_3_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/authentication/com.retrowalk.retro-walk-server.common.authentication.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/authentication/com.retrowalk.retro-walk-server.common.authentication.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/authentication/com.retrowalk.retro-walk-server.common.authentication.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/authentication/com.retrowalk.retro-walk-server.common.authentication.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/core/com.retrowalk.retro-walk-server.common.core.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/core/com.retrowalk.retro-walk-server.common.core.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/common/core/com.retrowalk.retro-walk-server.common.core.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/common/core/com.retrowalk.retro-walk-server.common.core.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/authentication/src/main/java/com/retrowalk/config/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/authentication/src/main/java/com/retrowalk/config/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/authentication/src/main/java/com/retrowalk/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/authentication/src/main/java/com/retrowalk/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/authentication/src/main/java/com/retrowalk/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/authentication/src/main/java/com/retrowalk/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/SuccessResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/SuccessResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/authentication/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/authentication/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multitenant.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,40 +95,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.Load Gradle Dependencies.executor": "Run",
-    "Gradle.Retro-Walk-redesign [clean build].executor": "Run",
-    "Gradle.Retro-Walk-redesign [clean].executor": "Run",
-    "Gradle.Retro-Walk-redesign [common:authentication:build].executor": "Run",
-    "Gradle.Retro-Walk-redesign [common:authentication:clean build].executor": "Run",
-    "Gradle.Retro-Walk-redesign [common:authentication:clean].executor": "Run",
-    "Gradle.Retro-Walk-redesign [common:core:build].executor": "Run",
-    "Gradle.Retro-Walk-redesign [common:core:clean build].executor": "Run",
-    "Gradle.Retro-Walk-redesign [common:core:clean install].executor": "Run",
-    "Gradle.Retro-Walk-redesign [common:core:clean].executor": "Run",
-    "Gradle.Retro-Walk-redesign [common:core:dependencies].executor": "Run",
-    "Gradle.Retro-Walk-redesign [dependencies].executor": "Run",
-    "Gradle.Retro-Walk-redesign [test].executor": "Run",
-    "Gradle.Retro-Walk-redesign:common:authentication [:common:authentication:com.retrowalk.AuthenticationApplication.main()].executor": "Debug",
-    "Gradle.retro-walk-server [test].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/agsuser/Downloads/Retro-Walk-redesign/common/authentication/src/main/java/com/retrowalk/utility",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [clean build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [common:authentication:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [common:authentication:clean build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [common:authentication:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [common:core:build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [common:core:clean build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [common:core:clean install].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [common:core:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [common:core:dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign [test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Retro-Walk-redesign:common:authentication [:common:authentication:com.retrowalk.AuthenticationApplication.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.retro-walk-server [test].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/agsuser/Downloads/Retro-Walk-redesign/common/authentication/src/main/java/com/retrowalk/utility&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/common/authentication/src/main/java/com/retrowalk/utility" />

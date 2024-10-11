@@ -2,10 +2,6 @@ package com.retrowalk.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 import org.springframework.http.ResponseEntity;
 
 
@@ -31,6 +27,16 @@ public class ErrorResponse<T> {
      * Error message.
      */
     private String message;
+
+    public ErrorResponse(String exceptionTrace, String url, Integer statusCode, String message) {
+        this.exceptionTrace = exceptionTrace;
+        this.url = url;
+        this.statusCode = statusCode;
+        this.message = message;
+    }
+
+    public ErrorResponse() {
+    }
 
     /**
      * Get response entity.
@@ -72,15 +78,5 @@ public class ErrorResponse<T> {
 
     public void setMessage(String message) {
         this.message = message;
-    }
-
-    public ErrorResponse(String exceptionTrace, String url, Integer statusCode, String message) {
-        this.exceptionTrace = exceptionTrace;
-        this.url = url;
-        this.statusCode = statusCode;
-        this.message = message;
-    }
-
-    public ErrorResponse() {
     }
 }

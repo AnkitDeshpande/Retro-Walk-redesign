@@ -32,9 +32,21 @@ public class Response<T> {
     public Response(final Class<T> clazz) {
         try {
             instance = clazz.getDeclaredConstructor().newInstance();
-        } catch (InstantiationException | IllegalAccessException | NoSuchMethodException | InvocationTargetException e) {
+        } catch (InstantiationException | IllegalAccessException | NoSuchMethodException |
+                 InvocationTargetException e) {
             log.error("Error instantiating class: {}", clazz.getName(), e);
         }
+    }
+
+    /**
+     * Static method to start building a Response.
+     *
+     * @param clazz - The class of type T.
+     * @param <T>   - The type of the response.
+     * @return A new Response instance.
+     */
+    public static <T> Response<T> build(final Class<T> clazz) {
+        return new Response<>(clazz);
     }
 
     /**
@@ -57,17 +69,6 @@ public class Response<T> {
      */
     public T get() {
         return instance;
-    }
-
-    /**
-     * Static method to start building a Response.
-     *
-     * @param clazz - The class of type T.
-     * @param <T>   - The type of the response.
-     * @return A new Response instance.
-     */
-    public static <T> Response<T> build(final Class<T> clazz) {
-        return new Response<>(clazz);
     }
 
     /**

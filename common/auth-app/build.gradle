@@ -1,0 +1,55 @@
+//build.gradle of auth module
+plugins {
+    id 'org.springframework.boot' version '3.3.4'
+    id 'io.spring.dependency-management' version '1.1.6'
+    id 'java'
+    id 'application'
+    id 'idea'
+}
+
+group = 'com.retrowalk'
+version = '0.0.1-SNAPSHOT'
+
+tasks.named("bootJar") {
+    enabled = true
+}
+
+tasks.named("jar") {
+    enabled = false
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':common:core')
+    implementation project(':common:multitenant')
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.3.0'
+    implementation 'org.springframework.boot:spring-boot-starter-security:3.3.0'
+    implementation 'org.springframework.boot:spring-boot-starter-websocket:3.2.3'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:3.2.3'
+    implementation 'org.springframework.boot:spring-boot-starter-amqp:3.3.0'
+    implementation 'org.springframework.boot:spring-boot-starter-jetty:3.3.2'
+    implementation 'org.springframework.boot:spring-boot-starter-validation:3.2.3'
+    implementation 'org.springframework.boot:spring-boot-devtools:3.3.0'
+    implementation 'org.hibernate:hibernate-validator:8.0.1.Final'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.17.1'
+    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
+    implementation 'org.apache.commons:commons-text:1.11.0'
+    implementation 'org.apache.commons:commons-lang3:3.14.0'
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.1.0'
+    implementation 'org.modelmapper:modelmapper:3.1.1'
+    implementation 'com.mysql:mysql-connector-j:8.3.0'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.3.0'
+    testImplementation 'org.springframework.security:spring-security-test:6.3.0'
+    implementation 'org.springframework.data:spring-data-envers'
+    implementation 'org.hibernate:hibernate-envers:6.3.0.Final'
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+}
+
+

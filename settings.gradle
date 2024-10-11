@@ -1,23 +1,18 @@
-rootProject.name = 'retro-walk-server'
-include 'common'
-include 'common'
-include 'common:core'
-findProject(':common:core')?.name = 'core'
-include 'common:notification'
-findProject(':common:notification')?.name = 'notification'
-include 'common:document'
-findProject(':common:document')?.name = 'document'
-include 'common:document-manager'
-findProject(':common:document-manager')?.name = 'document-manager'
-include 'common:authentication'
-findProject(':common:authentication')?.name = 'authentication'
-include 'organisation'
-include 'organisation:platform-management'
-findProject(':organisation:platform-management')?.name = 'platform-management'
-include 'organisation:user-management'
-findProject(':organisation:user-management')?.name = 'user-management'
-include 'common:multitenant'
-findProject(':common:multitenant')?.name = 'multitenant'
-include 'common:multitenant'
-findProject(':common:multitenant')?.name = 'multitenant'
+rootProject.name = 'retro-walk-redesign'
+def includeProjects(Map<String, String> projects) {
+    projects.each { key, value ->
+        include key
+        findProject(key)?.name = value
+    }
+}
+
+includeProjects([
+        ':common:core' : 'core',
+        ':common:auth-app': 'auth-app',
+        ':common:multitenant': 'multitenant',
+        ':common:notification-engine': 'notification-engine',
+        ':common:document-manager': 'document-manager',
+        ':platform:org-management': 'org-management',
+        ':platform:shop-management': 'shop-management'
+])
 

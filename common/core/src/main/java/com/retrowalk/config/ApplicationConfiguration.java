@@ -26,6 +26,7 @@ public class ApplicationConfiguration {
 
     /**
      * Message Source Bundle for messages.
+     *
      * @return ResourceBundleMessageSource
      */
     @Bean

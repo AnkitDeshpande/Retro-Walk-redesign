@@ -26,16 +26,14 @@ public class SuccessResponse<T> {
     /**
      * Data.
      * -- GETTER --
-     *  Get data.
-     *
+     * Get data.
      */
     T data;
 
     /**
      * Timestamp of response.
      * -- GETTER --
-     *  get Timestamp.
-     *
+     * get Timestamp.
      */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
     Date timeStamp = new Date();
@@ -43,16 +41,14 @@ public class SuccessResponse<T> {
     /**
      * Status code.
      * -- GETTER --
-     *  Get status code.
-     *
+     * Get status code.
      */
     Integer statusCode;
 
     /**
      * Status message.
      * -- GETTER --
-     *  Get message
-     *
+     * Get message
      */
     String message;
 

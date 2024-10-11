@@ -1,11 +1,8 @@
 package com.retrowalk.enums;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 @Getter
-@NoArgsConstructor
 public enum Database {
 
     /**
@@ -16,9 +13,10 @@ public enum Database {
     /**
      * DB Name.
      */
-    private String dbName;
+    private final String dbName;
 
     Database(String dbName) {
         this.dbName = dbName;
     }
+
 }

@@ -9,6 +9,7 @@
         </processorPath>
         <module name="com.retrowalk.retro-walk-server.main" />
         <module name="com.retrowalk.retro-walk-server.common.core.main" />
+        <module name="com.retrowalk.retro-walk-server.common.authentication.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />
