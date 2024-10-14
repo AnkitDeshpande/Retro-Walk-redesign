@@ -5,6 +5,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-envers/3.3.4/3bfcc678fb1497a403561a015df278f0b67431cc/spring-data-envers-3.3.4.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-envers/3.3.4/1bd4bdbb05c1e82b70f9ae8611931e501da16e37/spring-data-envers-3.3.4-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

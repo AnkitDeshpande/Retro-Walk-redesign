@@ -1,17 +1,17 @@
+import org.springframework.boot.gradle.tasks.bundling.BootJar
+
 //build.gradle of core module
 plugins {
     id 'org.springframework.boot' version '3.3.4'
     id 'io.spring.dependency-management' version '1.1.6'
     id 'java'
-    id 'application'
     id 'idea'
 }
 
 group = 'com.retrowalk'
 version = '0.0.1-SNAPSHOT'
 
-
-tasks.named("bootJar") {
+tasks.withType(BootJar).configureEach {
     enabled = false
 }
 

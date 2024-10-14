@@ -1,6 +1,6 @@
 package com.retrowalk.config;
 
-import com.retrowalk.service.JwtService;
+import com.retrowalk.service.impl.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

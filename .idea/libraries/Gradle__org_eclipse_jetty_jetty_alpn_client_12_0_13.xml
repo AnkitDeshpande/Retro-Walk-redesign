@@ -5,6 +5,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-client/12.0.13/a0a0f2d0ccab023df7a0917b1ddb1b26a995cf2e/jetty-alpn-client-12.0.13.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-alpn-client/12.0.13/65701dc2659fc1b8db19183082803777402fd856/jetty-alpn-client-12.0.13-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

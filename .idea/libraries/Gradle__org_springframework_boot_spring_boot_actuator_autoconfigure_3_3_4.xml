@@ -5,6 +5,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/3.3.4/20d38f1d2d7e58a079031793a283e384cfc1c8bd/spring-boot-actuator-autoconfigure-3.3.4.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/3.3.4/db76f05ef5111abd0bd2604f14a4136475b05860/spring-boot-actuator-autoconfigure-3.3.4-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

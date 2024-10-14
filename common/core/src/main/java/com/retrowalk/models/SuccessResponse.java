@@ -36,7 +36,7 @@ public class SuccessResponse<T> {
      * get Timestamp.
      */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
-    Date timeStamp = new Date();
+    final Date timeStamp = new Date();
 
     /**
      * Status code.

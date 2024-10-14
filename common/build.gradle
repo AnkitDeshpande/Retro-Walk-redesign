@@ -11,22 +11,29 @@ buildscript {
     }
 }
 
-plugins {
-    id 'java'
-}
-
-group = 'com.retrowalk'
-version = '0.0.1-SNAPSHOT'
-
 repositories {
+    gradlePluginPortal()
     mavenCentral()
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+
 }
 
-test {
-    useJUnitPlatform()
+subprojects {
+
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+
+    group = 'com.retrowalk'
+    version = '0.1.0'
+
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+
+    dependencies {
+
+    }
 }

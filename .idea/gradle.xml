@@ -10,15 +10,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/common" />
-            <option value="$PROJECT_DIR$/common/authentication" />
+            <option value="$PROJECT_DIR$/common/auth-app" />
             <option value="$PROJECT_DIR$/common/core" />
-            <option value="$PROJECT_DIR$/common/document" />
             <option value="$PROJECT_DIR$/common/document-manager" />
             <option value="$PROJECT_DIR$/common/multitenant" />
-            <option value="$PROJECT_DIR$/common/notification" />
-            <option value="$PROJECT_DIR$/organisation" />
-            <option value="$PROJECT_DIR$/organisation/platform-management" />
-            <option value="$PROJECT_DIR$/organisation/user-management" />
+            <option value="$PROJECT_DIR$/common/notification-engine" />
+            <option value="$PROJECT_DIR$/platform" />
+            <option value="$PROJECT_DIR$/platform/org-management" />
+            <option value="$PROJECT_DIR$/platform/shop-management" />
           </set>
         </option>
       </GradleProjectSettings>

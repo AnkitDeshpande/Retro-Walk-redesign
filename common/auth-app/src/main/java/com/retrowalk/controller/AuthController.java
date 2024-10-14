@@ -4,7 +4,7 @@ import com.retrowalk.dto.LoginRequestDto;
 import com.retrowalk.dto.LoginResponseDto;
 import com.retrowalk.enums.SuccessMessage;
 import com.retrowalk.repository.UserRepository;
-import com.retrowalk.service.JwtService;
+import com.retrowalk.service.impl.JwtService;
 import com.retrowalk.utility.MessageUtils;
 import com.retrowalk.utility.SuccessResponse;
 import lombok.RequiredArgsConstructor;
