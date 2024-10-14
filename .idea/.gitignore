@@ -1,9 +1,9 @@
 # Default ignored files
-/shelf/
-/workspace.xml
-/build/
-/**/build/
-*.jar
-*.war
-*.zip
-*.tar
+     /shelf/
+     /workspace.xml
+     /build/
+     /**/build/
+     *.jar
+     *.war
+     *.zip
+     *.tar
