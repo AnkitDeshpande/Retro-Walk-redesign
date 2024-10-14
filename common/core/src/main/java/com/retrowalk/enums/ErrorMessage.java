@@ -5,14 +5,9 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum SuccessMessage {
+public enum ErrorMessage {
 
-    SIGN_UP_SUCCESS(200, "sign.up.success"),
-    LOGIN_SUCCESS(200, "login.success"),
-    LOGOUT_SUCCESS(200, "logout.success"),
-    MAIL_SUCCESS(200, "mail.sent.success"),
-    RESET_PASSWORD(200, "reset.password");
-
+    INTERNAL_SERVER_ERROR(500, "something.went.wrong");
 
     /**
      * The code.

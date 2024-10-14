@@ -7,8 +7,8 @@ import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import java.time.LocalDateTime;
 import java.util.Collection;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -42,7 +42,7 @@ public class User extends AuditCommonBaseModel implements UserDetails {
 
     @DateTimeFormat(pattern = "dd-MM-yyyy")
     @Column(name = "date_of_birth")
-    private LocalDateTime dateOfBirth;
+    private Date dateOfBirth;
 
     @Column(name = "profile_picture_url", length = 255)
     private String profilePictureUrl;
@@ -54,7 +54,7 @@ public class User extends AuditCommonBaseModel implements UserDetails {
     private boolean emailVerified;
 
     @Column(name = "last_login")
-    private LocalDateTime lastLogin;
+    private Date lastLogin;
 
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")

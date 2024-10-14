@@ -1,4 +1,4 @@
-package com.retrowalk.dto;
+package com.retrowalk.dto.requestDto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class LoginResponseDto {
+public class LoginRequestDto {
     private String username;
-    private String token;
+    private String password;
 }

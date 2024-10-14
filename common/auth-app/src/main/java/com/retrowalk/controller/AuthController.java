@@ -1,10 +1,16 @@
 package com.retrowalk.controller;
 
-import com.retrowalk.dto.LoginRequestDto;
-import com.retrowalk.dto.LoginResponseDto;
+import com.retrowalk.dto.requestDto.LoginRequestDto;
+import com.retrowalk.dto.requestDto.SignUpRequestDto;
+import com.retrowalk.dto.responseDto.LoginResponseDto;
+import com.retrowalk.dto.responseDto.SignUpResponseDto;
+import com.retrowalk.entities.User;
 import com.retrowalk.enums.SuccessMessage;
+import com.retrowalk.models.request.SignUpRequest;
 import com.retrowalk.repository.UserRepository;
+import com.retrowalk.service.UserService;
 import com.retrowalk.service.impl.JwtService;
+import com.retrowalk.utility.Mapper;
 import com.retrowalk.utility.MessageUtils;
 import com.retrowalk.utility.SuccessResponse;
 import lombok.RequiredArgsConstructor;
@@ -31,8 +37,12 @@ public class AuthController {
 
     private final MessageUtils messageUtils;
 
+    private final UserService userService;
+
+    private final Mapper mapper;
+
     @PostMapping("/login")
-    public SuccessResponse<LoginResponseDto> AuthenticateAndGetToken(@RequestBody LoginRequestDto loginRequestDTO) {
+    public SuccessResponse<LoginResponseDto> login(@RequestBody LoginRequestDto loginRequestDTO) {
         Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginRequestDTO.getUsername(), loginRequestDTO.getPassword()));
         LoginResponseDto loginResponse = LoginResponseDto.builder().username(authentication.getName()).token(jwtService.generateToken(loginRequestDTO.getUsername())).build();
 
@@ -41,6 +51,18 @@ public class AuthController {
                 .data(loginResponse)
                 .statusCode(SuccessMessage.LOGIN_SUCCESS.getCode())
                 .message("Login successful")
+                .build();
+    }
+
+    @PostMapping("/signup")
+    public SuccessResponse<SignUpResponseDto> register(@RequestBody SignUpRequestDto signUpRequestDto) {
+        User user = userService.registerUser(mapper.convert(signUpRequestDto, SignUpRequest.class));
+        SignUpResponseDto dtoTOSend = mapper.convert(user, SignUpResponseDto.class);
+        /* Return the ResponseEntity */
+        return SuccessResponse.<SignUpResponseDto>builder()
+                .data(dtoTOSend)
+                .statusCode(SuccessMessage.SIGN_UP_SUCCESS.getCode())
+                .message(SuccessMessage.SIGN_UP_SUCCESS.getMessage())
                 .build();
     }
 }

@@ -1,4 +1,4 @@
-package com.retrowalk.models;
+package com.retrowalk.dto.requestDto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +11,7 @@ import java.util.Date;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserRequest {
+public class SignUpRequestDto {
     private String username;
     private String password;
     private String email;
@@ -20,5 +20,5 @@ public class UserRequest {
     private String phoneNumber;
     private Date dateOfBirth;
     private String profilePictureUrl;
-    private Set addressDto;
+    private AddressRequestDto addressDto;
 }

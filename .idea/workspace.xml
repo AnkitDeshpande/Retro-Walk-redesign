@@ -5,121 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="669e72f2-e763-4bfd-b799-5c7bffee3287" name="Changes" comment="new classes, dtos, models and services added.">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/bootScripts/auth-app" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/bootScripts/auth-app.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/distributions/auth-app-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/distributions/auth-app-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/distributions/auth-app-boot-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/distributions/auth-app-boot-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/libs/auth-app-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/resolvedMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/scripts/auth-app" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/scripts/auth-app.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/libs/core-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/build/libs/core-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/bootScripts/document-manager" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/bootScripts/document-manager.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/classes/java/main/com/retrowalk/DocumentManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/distributions/document-manager-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/distributions/document-manager-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/distributions/document-manager-boot-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/distributions/document-manager-boot-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/libs/document-manager-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/resolvedMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/resources/main/messages/retrowalk_messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/scripts/document-manager" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/scripts/document-manager.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/bootScripts/multitenant" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/bootScripts/multitenant.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/distributions/multitenant-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/distributions/multitenant-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/distributions/multitenant-boot-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/distributions/multitenant-boot-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/libs/multitenant-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/multitenant/build/libs/multitenant-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/resolvedMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/scripts/multitenant" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/scripts/multitenant.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/bootScripts/notification-engine" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/bootScripts/notification-engine.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/classes/java/main/com/retrowalk/NotificationEngine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/distributions/notification-engine-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/distributions/notification-engine-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/distributions/notification-engine-boot-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/distributions/notification-engine-boot-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/libs/notification-engine-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/resolvedMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/resources/main/messages/retrowalk_messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/scripts/notification-engine" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/scripts/notification-engine.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/bootScripts/org-management" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/bootScripts/org-management.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/AccountDto$AccountDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/AccountDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/AddressDto$AddressDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/AddressDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/BusinessDto$BusinessDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/BusinessDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/RegisterRequestDto$RegisterRequestDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/RegisterRequestDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/UserDto$UserDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/dto/requestDto/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/enums/BusinessType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/models/request/AccountRequest$AccountRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/models/request/AccountRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/models/request/BusinessRequest$BusinessRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/models/request/BusinessRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/models/request/RegisterRequest$RegisterRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/models/request/RegisterRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/models/request/UserRequest$UserRequestBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/models/request/UserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/organisationManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/service/BusinessService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/classes/java/main/com/retrowalk/service/impl/AccountServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/distributions/org-management-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/distributions/org-management-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/distributions/org-management-boot-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/distributions/org-management-boot-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/libs/org-management-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/resolvedMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/resources/main/messages/retrowalk_messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/scripts/org-management" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/scripts/org-management.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/src/main/java/com/retrowalk/models/request/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/org-management/src/main/java/com/retrowalk/models/request/RegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/src/main/java/com/retrowalk/models/request/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/src/main/java/com/retrowalk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/org-management/src/main/java/com/retrowalk/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/bootScripts/shop-management" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/bootScripts/shop-management.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/classes/java/main/com/retrowalk/ShopManagement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/distributions/shop-management-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/distributions/shop-management-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/distributions/shop-management-boot-0.0.1-SNAPSHOT.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/distributions/shop-management-boot-0.0.1-SNAPSHOT.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/libs/shop-management-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/resolvedMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/resources/main/messages/retrowalk_messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/scripts/shop-management" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/scripts/shop-management.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/LoginRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/requestDto/LoginRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/LoginResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/LoginResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/AddressResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/AddressResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/SignUpResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/SignUpResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/resources/messages/retrowalk_messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/resources/messages/retrowalk_messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/enums/SuccessMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/enums/SuccessMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/SuccessResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/SuccessResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/src/main/resources/messages/retrowalk_messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/resources/messages/retrowalk_messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/org-management/src/main/java/com/retrowalk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -239,6 +139,11 @@
       <recent name="$PROJECT_DIR$/organisation/user-management/src/main/resources" />
       <recent name="$PROJECT_DIR$/organisation/platform-management/src/main/resources" />
       <recent name="$PROJECT_DIR$/common/notification/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.retrowalk.dto.responseDto" />
+      <recent name="com.retrowalk.dto.requestDto" />
+      <recent name="com.retrowalk.dtos" />
     </key>
   </component>
   <component name="RunAnythingCache">

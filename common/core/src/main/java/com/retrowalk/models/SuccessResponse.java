@@ -24,20 +24,18 @@ import java.util.Date;
 public class SuccessResponse<T> {
 
     /**
-     * Data.
-     * -- GETTER --
-     * Get data.
-     */
-    T data;
-
-    /**
      * Timestamp of response.
      * -- GETTER --
      * get Timestamp.
      */
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm")
     final Date timeStamp = new Date();
-
+    /**
+     * Data.
+     * -- GETTER --
+     * Get data.
+     */
+    T data;
     /**
      * Status code.
      * -- GETTER --

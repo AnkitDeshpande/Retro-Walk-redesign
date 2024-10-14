@@ -1,24 +1,23 @@
-package com.retrowalk.models;
+package com.retrowalk.models.request;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
+import com.retrowalk.models.AddressRequest;
+import jakarta.persistence.Temporal;
+import jakarta.persistence.TemporalType;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
 @Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class UserRequest {
+public class SignUpRequest {
+
     private String username;
     private String password;
     private String email;
     private String firstName;
     private String lastName;
     private String phoneNumber;
+    @Temporal(TemporalType.DATE)
     private Date dateOfBirth;
     private String profilePictureUrl;
-    private Set addressDto;
+    private AddressRequest address;
 }
