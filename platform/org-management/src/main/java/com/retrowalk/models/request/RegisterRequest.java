@@ -1,5 +1,6 @@
 package com.retrowalk.models.request;
 
+import com.retrowalk.models.UserRequest;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
