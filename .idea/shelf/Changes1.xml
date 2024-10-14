@@ -1,0 +1,9 @@
+<changelist name="Changes1" date="1728912090965" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="BEFORE_PATH" value="common/auth-app/build/classes/java/main/com/retrowalk/controller/AuthController.class" />
+    <option name="AFTER_PATH" value="common/auth-app/build/classes/java/main/com/retrowalk/controller/AuthController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes1/AuthController.class" />
+  </binary>
+</changelist>

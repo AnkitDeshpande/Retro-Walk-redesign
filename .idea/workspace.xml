@@ -4,22 +4,35 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669e72f2-e763-4bfd-b799-5c7bffee3287" name="Changes" comment="new classes, dtos, models and services added.">
+    <list default="true" id="669e72f2-e763-4bfd-b799-5c7bffee3287" name="Changes" comment="Register API completed">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/LoginRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/requestDto/LoginRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/LoginResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/LoginResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/AddressResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/AddressResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/SignUpResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/dto/responseDto/SignUpResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/service/impl/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/resources/messages/retrowalk_messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/resources/messages/retrowalk_messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/enums/SuccessMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/enums/SuccessMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/SuccessResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/SuccessResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/src/main/resources/messages/retrowalk_messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/resources/messages/retrowalk_messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/src/main/java/com/retrowalk/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/dto/LoginRequestDto$LoginRequestDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/dto/LoginRequestDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/dto/LoginResponseDto$LoginResponseDtoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/dto/LoginResponseDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/service/impl/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/service/impl/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/build/resources/main/messages/retrowalk_messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/build/resources/main/messages/retrowalk_messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/auth-app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/enums/SuccessMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/enums/SuccessMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/models/AddressRequest$AddressRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/models/SuccessResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/models/SuccessResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/models/UserRequest$UserRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/models/UserRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/build/libs/core-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/build/libs/core-0.0.1-SNAPSHOT-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/build/resources/main/messages/retrowalk_messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/build/resources/main/messages/retrowalk_messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/UserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/multitenant/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/common/multitenant/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform/org-management/src/main/java/com/retrowalk/models/request/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform/org-management/src/main/java/com/retrowalk/models/request/RegisterRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,12 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728902351605</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Register API completed">
+      <option name="closed" value="true" />
+      <created>1728911716443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728911716443</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project structure working properly" />
     <MESSAGE value="new classes, dtos, models and services added." />
-    <option name="LAST_COMMIT_MESSAGE" value="new classes, dtos, models and services added." />
+    <MESSAGE value="Register API completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Register API completed" />
   </component>
 </project>

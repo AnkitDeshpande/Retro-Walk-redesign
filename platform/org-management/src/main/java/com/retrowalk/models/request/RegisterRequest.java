@@ -1,6 +1,5 @@
 package com.retrowalk.models.request;
 
-import com.retrowalk.models.UserRequest;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,8 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class RegisterRequest {
-    private UserRequest userDto;
     private AccountRequest accountDto;
     private BusinessRequest businessDto;
-    private Boolean isBusiness;
 }
