@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: jakarta.servlet:jakarta.servlet-api:6.1.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="jakarta.servlet" artifactId="jakarta.servlet-api" version="6.1.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.servlet/jakarta.servlet-api/6.1.0/1169a246913fe3823782af7943e7a103634867c5/jakarta.servlet-api-6.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/jakarta.servlet/jakarta.servlet-api/6.1.0/d3f7a30a2f0436a74f96b1f583d11fbe808f28cb/jakarta.servlet-api-6.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

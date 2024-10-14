@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.springframework.boot:spring-boot-starter-amqp:3.3.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.springframework.boot" artifactId="spring-boot-starter-amqp" version="3.3.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-amqp/3.3.0/dbf34c507681b8dc8db7a45e90b31dfdf8508567/spring-boot-starter-amqp-3.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-amqp/3.3.0/f9e00bd3eaf46d14cd02c9e885ba0d0d0d462a2c/spring-boot-starter-amqp-3.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

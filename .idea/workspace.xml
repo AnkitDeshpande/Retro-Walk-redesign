@@ -4,199 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669e72f2-e763-4bfd-b799-5c7bffee3287" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_17_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_17_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_mysql_mysql_connector_j_9_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_core_1_13_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_core_1_13_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_jakarta9_1_13_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_micrometer_micrometer_jakarta9_1_13_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_annotations_jakarta_2_2_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_core_jakarta_2_2_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_swagger_core_v3_swagger_models_jakarta_2_2_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_enterprise_jakarta_enterprise_cdi_api_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_enterprise_jakarta_enterprise_cdi_api_4_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_enterprise_jakarta_enterprise_lang_model_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_enterprise_jakarta_enterprise_lang_model_4_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_interceptor_jakarta_interceptor_api_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_interceptor_jakarta_interceptor_api_2_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_text_1_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_text_1_11_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_angus_jakarta_mail_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_annotations_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_annotations_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_plus_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_plus_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_servlet_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_servlet_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_servlets_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_servlets_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_webapp_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_jetty_ee10_webapp_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_jakarta_client_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_jakarta_client_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_jakarta_common_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_jakarta_common_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_jakarta_server_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_jakarta_server_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_jetty_server_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_jetty_server_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_servlet_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_ee10_websocket_jetty_ee10_websocket_servlet_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_client_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_alpn_client_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_client_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_client_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_ee_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_ee_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_http_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_http_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_io_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_plus_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_plus_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_security_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_security_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_server_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_server_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_session_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_session_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_util_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_xml_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_jetty_xml_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_core_client_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_core_client_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_core_common_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_core_common_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_core_server_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_core_server_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_jetty_api_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_jetty_api_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_jetty_common_12_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jetty_websocket_jetty_websocket_jetty_common_12_0_13.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hdrhistogram_HdrHistogram_2_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hdrhistogram_HdrHistogram_2_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_orm_hibernate_envers_6_5_3_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_orm_hibernate_envers_6_5_3_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_modelmapper_modelmapper_3_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_commons_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_commons_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_tree_9_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_tree_9_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springdoc_springdoc_openapi_starter_common_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springdoc_springdoc_openapi_starter_webmvc_api_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springdoc_springdoc_openapi_starter_webmvc_ui_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_3_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_autoconfigure_3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_actuator_autoconfigure_3_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_devtools_3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jetty_3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_mail_3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_3_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_validation_3_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_envers_3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_envers_3_3_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_config_6_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_config_6_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_core_6_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_core_6_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_crypto_6_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_crypto_6_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_test_6_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_web_6_3_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_security_spring_security_web_6_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_support_6_1_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_webjars_swagger_ui_5_10_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.retrowalk.retro-walk-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.retrowalk.retro-walk-server.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.retrowalk.retro-walk-server.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/authentication/com.retrowalk.retro-walk-server.common.authentication.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/authentication/com.retrowalk.retro-walk-server.common.authentication.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/authentication/com.retrowalk.retro-walk-server.common.authentication.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/com.retrowalk.retro-walk-server.common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/com.retrowalk.retro-walk-server.common.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/com.retrowalk.retro-walk-server.common.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/core/com.retrowalk.retro-walk-server.common.core.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/core/com.retrowalk.retro-walk-server.common.core.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/core/com.retrowalk.retro-walk-server.common.core.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/document-manager/com.retrowalk.retro-walk-server.common.document-manager.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/document-manager/com.retrowalk.retro-walk-server.common.document-manager.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/document-manager/com.retrowalk.retro-walk-server.common.document-manager.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/document/Retro-Walk-redesign.retro-walk-server.common.document.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/multitenant/retro-walk-server.common.multitenant.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/multitenant/retro-walk-server.common.multitenant.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/multitenant/retro-walk-server.common.multitenant.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/notification/com.retrowalk.retro-walk-server.common.notification.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/notification/com.retrowalk.retro-walk-server.common.notification.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/common/notification/com.retrowalk.retro-walk-server.common.notification.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/organisation/com.retrowalk.retro-walk-server.organisation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/organisation/com.retrowalk.retro-walk-server.organisation.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/organisation/com.retrowalk.retro-walk-server.organisation.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/organisation/platform-management/com.retrowalk.retro-walk-server.organisation.platform-management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/organisation/platform-management/com.retrowalk.retro-walk-server.organisation.platform-management.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/organisation/platform-management/com.retrowalk.retro-walk-server.organisation.platform-management.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/organisation/user-management/com.retrowalk.retro-walk-server.organisation.user-management.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/organisation/user-management/com.retrowalk.retro-walk-server.organisation.user-management.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/organisation/user-management/com.retrowalk.retro-walk-server.organisation.user-management.test.iml" beforeDir="false" />
+    <list default="true" id="669e72f2-e763-4bfd-b799-5c7bffee3287" name="Changes" comment="new classes, dtos, models and services added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/AuthenticationApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/config/JwtFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/controller/AuthController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/dto/LoginRequestDto$LoginRequestDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/dto/LoginRequestDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/dto/LoginResponseDto$LoginResponseDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/dto/LoginResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/enums/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/service/JwtService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/service/UserDetailsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/utility/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/utility/SuccessResponse$SuccessResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/classes/java/main/com/retrowalk/utility/SuccessResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/resources/main/application-dev.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/resources/main/messages/retrowalk_messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfig.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/config/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/config/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/service/JwtService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/auth-app/src/main/java/com/retrowalk/service/UserDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/config/ApplicationConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/config/OpenApiConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/entities/Address.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/entities/AuditCommonBaseModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/entities/CommonBaseModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/entities/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/entities/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/entities/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/enums/Database.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/enums/Headers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/enums/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/enums/SuccessMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/enums/TokenType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/exception/RetrowalkException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/models/ErrorResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/models/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/models/SuccessResponse$SuccessResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/models/SuccessResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/classes/java/main/com/retrowalk/utility/MessageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/libs/core-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/resources/main/messages/retrowalk_messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/tmp/compileJava/compileTransaction/stash-dir/Address.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/tmp/compileJava/compileTransaction/stash-dir/Role.class.uniqueId3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/tmp/compileJava/compileTransaction/stash-dir/Token.class.uniqueId2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/tmp/compileJava/compileTransaction/stash-dir/User.class.uniqueId1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/SuccessResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/core/src/main/java/com/retrowalk/models/SuccessResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/document-manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/document-manager/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/classes/java/main/com/retrowalk/config/TenantFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/classes/java/main/com/retrowalk/models/TenantContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/classes/java/main/com/retrowalk/utility/SecurityUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/libs/multitenant-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/tmp/compileJava/compileTransaction/stash-dir/TenantFilter.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/multitenant/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/notification-engine/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/notification-engine/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/platform/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/org-management/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/platform/org-management/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform/shop-management/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/platform/shop-management/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,6 +49,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AnkitDeshpande/Retro-Walk-redesign.git",
+    "accountId": "9f6e3cc7-5c71-4f74-9858-6e1fe4510e3a"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
@@ -477,6 +292,20 @@
       <option name="presentableId" value="Default" />
       <updated>1727787734090</updated>
     </task>
+    <task id="LOCAL-00001" summary="project structure working properly">
+      <option name="closed" value="true" />
+      <created>1728902351605</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728902351605</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project structure working properly" />
+    <MESSAGE value="new classes, dtos, models and services added." />
+    <option name="LAST_COMMIT_MESSAGE" value="new classes, dtos, models and services added." />
   </component>
 </project>
