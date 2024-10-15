@@ -6,12 +6,14 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
+import java.util.Set;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class SignUpRequestDto {
+    private Long id;
     private String username;
     private String password;
     private String email;
@@ -20,5 +22,5 @@ public class SignUpRequestDto {
     private String phoneNumber;
     private Date dateOfBirth;
     private String profilePictureUrl;
-    private AddressRequestDto addressDto;
+    private Set<AddressRequestDto> addresses;
 }

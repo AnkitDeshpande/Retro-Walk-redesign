@@ -17,6 +17,9 @@
           <option value="retro-walk-redesign.platform.org-management" />
           <option value="retro-walk-redesign.common.auth-app" />
           <option value="retro-walk-redesign.common.auth-app" />
+          <option value="retro-walk-redesign.common.core" />
+          <option value="retro-walk-redesign.common.core" />
+          <option value="retro-walk-redesign.common.multitenant" />
         </list>
       </option>
       <option name="ignoredPackages">
@@ -33,10 +36,16 @@
           <option value="org.xmlunit:xmlunit-core:2.9.1" />
           <option value="org.springframework:spring-web:6.1.13" />
           <option value="org.xmlunit:xmlunit-core:2.9.1" />
+          <option value="org.springframework.security:spring-security-core:6.3.0" />
+          <option value="com.google.protobuf:protobuf-java:3.25.1" />
+          <option value="org.xmlunit:xmlunit-core:2.9.1" />
         </list>
       </option>
       <option name="ignoredReasons">
         <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
           <option value="Not exploitable" />
           <option value="Not exploitable" />
           <option value="Not exploitable" />

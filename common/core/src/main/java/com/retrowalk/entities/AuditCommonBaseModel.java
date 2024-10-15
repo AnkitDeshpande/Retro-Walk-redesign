@@ -29,7 +29,7 @@ public class AuditCommonBaseModel extends CommonBaseModel {
      */
     @Column(name = "created_date", nullable = false, updatable = false)
     @CreatedDate
-    private Date createdDate;
+    private final Date createdDate = new Date();
 
     /**
      * Model updated at timestamp.

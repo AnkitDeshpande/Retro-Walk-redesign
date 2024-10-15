@@ -56,7 +56,7 @@ public class AuthController {
 
     @PostMapping("/signup")
     public SuccessResponse<SignUpResponseDto> register(@RequestBody SignUpRequestDto signUpRequestDto) {
-        User user = userService.registerUser(mapper.convert(signUpRequestDto, SignUpRequest.class));
+        User user = userService.saveUser(mapper.convert(signUpRequestDto, SignUpRequest.class));
         SignUpResponseDto dtoTOSend = mapper.convert(user, SignUpResponseDto.class);
         /* Return the ResponseEntity */
         return SuccessResponse.<SignUpResponseDto>builder()

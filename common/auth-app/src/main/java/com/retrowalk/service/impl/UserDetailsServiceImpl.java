@@ -1,8 +1,10 @@
 package com.retrowalk.service.impl;
 
+import com.retrowalk.dto.requestDto.AddressRequestDto;
 import com.retrowalk.entities.Address;
 import com.retrowalk.entities.User;
 import com.retrowalk.exception.RetrowalkException;
+import com.retrowalk.models.AddressRequest;
 import com.retrowalk.models.request.SignUpRequest;
 import com.retrowalk.repository.UserRepository;
 import com.retrowalk.service.UserService;
@@ -13,6 +15,10 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
 
 /**
  * Implementation of the {@link UserDetailsService} interface to load user-specific data.
@@ -50,18 +56,28 @@ public class UserDetailsServiceImpl implements UserDetailsService, UserService {
      * @return the registered User
      */
     @Override
-    @Transactional // Ensure that user registration is transactional
-    public User registerUser(SignUpRequest signUpRequest) {
+    @Transactional
+    public User saveUser(SignUpRequest signUpRequest) {
+        User userToSave;
 
-        if (userRepository.existsByUsername(signUpRequest.getUsername())) {
-            throw new RetrowalkException(500, "User already exists with the username: " + signUpRequest.getUsername());
+        if (Objects.nonNull(signUpRequest.getId())) {
+
+            userToSave = userRepository.findById(signUpRequest.getId())
+                    .orElseThrow(() -> new RetrowalkException(404, "User not found with ID: " + signUpRequest.getId()));
+
+        } else {
+
+            if (userRepository.existsByUsername(signUpRequest.getUsername())) {
+                throw new RetrowalkException(500, "User already exists with the username: " + signUpRequest.getUsername());
+            }
+
+            if (userRepository.existsByEmail(signUpRequest.getEmail())) {
+                throw new RetrowalkException(500, "Email already in use: " + signUpRequest.getEmail());
+            }
+
+            userToSave = new User();
         }
 
-        if (userRepository.existsByEmail(signUpRequest.getEmail())) {
-            throw new RetrowalkException(500, "Email already in use: " + signUpRequest.getEmail());
-        }
-
-        User userToSave = new User();
         userToSave.setUsername(signUpRequest.getUsername());
         userToSave.setEmail(signUpRequest.getEmail());
         userToSave.setFirstName(signUpRequest.getFirstName());
@@ -70,10 +86,38 @@ public class UserDetailsServiceImpl implements UserDetailsService, UserService {
         userToSave.setDateOfBirth(signUpRequest.getDateOfBirth());
         userToSave.setProfilePictureUrl(signUpRequest.getProfilePictureUrl());
 
-        if (signUpRequest.getAddress() != null) {
-            userToSave.getAddresses().add(mapper.convert(signUpRequest.getAddress(), Address.class));
+        User savedUser = userRepository.save(userToSave);
+
+        if (Objects.nonNull(signUpRequest.getAddresses())) {
+            Set<Address> existingAddresses = new HashSet<>(savedUser.getAddresses());
+
+            for (AddressRequest addressDTO : signUpRequest.getAddresses()) {
+                if (addressDTO.getId() != null) {
+                    Address existingAddress = existingAddresses.stream()
+                            .filter(address -> address.getId().equals(addressDTO.getId()))
+                            .findFirst()
+                            .orElseThrow(() -> new RetrowalkException(404, "Address not found"));
+
+                    existingAddress.setStreet(addressDTO.getStreet());
+                    existingAddress.setCity(addressDTO.getCity());
+                    existingAddress.setState(addressDTO.getState());
+                    existingAddress.setCountry(addressDTO.getCountry());
+                    existingAddress.setZipCode(addressDTO.getZipCode());
+
+                    existingAddresses.remove(existingAddress);
+                    savedUser.getAddresses().add(existingAddress);
+                } else {
+                    Address newAddress = mapper.convert(addressDTO, Address.class);
+                    newAddress.setUser(savedUser);
+                    savedUser.getAddresses().add(newAddress);
+                }
+            }
+
+            for (Address addressToRemove : existingAddresses) {
+                savedUser.getAddresses().remove(addressToRemove);
+            }
         }
 
-        return userRepository.save(userToSave);
+        return userRepository.save(savedUser);
     }
 }

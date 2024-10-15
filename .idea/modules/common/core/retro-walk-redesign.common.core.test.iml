@@ -3,10 +3,7 @@
   <component name="NewModuleRootManager">
     <output-test url="file://$MODULE_DIR$/../../../../common/core/build/classes/java/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../common/core/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../common/core/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../common/core/src/test/resources" type="java-test-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../common/core/src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="retro-walk-redesign.common.core.main" />

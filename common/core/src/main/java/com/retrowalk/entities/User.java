@@ -12,12 +12,12 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
-@EqualsAndHashCode(callSuper = true)
+@EqualsAndHashCode(callSuper = true, exclude = "addresses")
 @Entity
-@Data
-@ToString
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 @Table(name = "users")
 public class User extends AuditCommonBaseModel implements UserDetails {
 
@@ -25,7 +25,7 @@ public class User extends AuditCommonBaseModel implements UserDetails {
     private String username;
 
     @JsonIgnore
-    @Column(name = "password", nullable = false, length = 100)
+    @Column(name = "password", length = 100)
     private String password;
 
     @Column(name = "email", nullable = false, unique = true, length = 100)
@@ -44,13 +44,13 @@ public class User extends AuditCommonBaseModel implements UserDetails {
     @Column(name = "date_of_birth")
     private Date dateOfBirth;
 
-    @Column(name = "profile_picture_url", length = 255)
+    @Column(name = "profile_picture_url")
     private String profilePictureUrl;
 
-    @Column(name = "is_active", nullable = false)
+    @Column(name = "is_active")
     private boolean isActive;
 
-    @Column(name = "email_verified", nullable = false)
+    @Column(name = "email_verified")
     private boolean emailVerified;
 
     @Column(name = "last_login")

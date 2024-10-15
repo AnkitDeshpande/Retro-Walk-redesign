@@ -3,10 +3,7 @@
   <component name="NewModuleRootManager">
     <output-test url="file://$MODULE_DIR$/../../../../common/auth-app/build/classes/java/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../../common/auth-app/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../../common/auth-app/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../../common/auth-app/src/test/resources" type="java-test-resource" />
-    </content>
+    <content url="file://$MODULE_DIR$/../../../../common/auth-app/src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="retro-walk-redesign.common.auth-app.main" />
@@ -29,7 +26,7 @@
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.14.0" level="project" />
     <orderEntry type="library" name="Gradle: org.modelmapper:modelmapper:3.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.mysql:mysql-connector-j:8.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-envers:3.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-envers:3.3.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-test:6.3.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-aop:3.3.4" level="project" />

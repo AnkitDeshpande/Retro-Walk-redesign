@@ -1,4 +1,3 @@
-//build.gradle of org mgmt module
 plugins {
     id 'org.springframework.boot' version '3.3.4'
     id 'io.spring.dependency-management' version '1.1.6'
@@ -21,19 +20,18 @@ repositories {
 dependencies {
     implementation project(':common:core')
     implementation project(':common:auth-app')
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.3.0'
-    implementation 'org.springframework.boot:spring-boot-starter-amqp:3.3.0'
-    implementation 'org.springframework.boot:spring-boot-starter-jetty:3.3.2'
-    implementation 'org.springframework.boot:spring-boot-starter-validation:3.2.3'
-    implementation 'org.springframework.boot:spring-boot-devtools:3.3.0'
-    implementation 'org.hibernate:hibernate-validator:8.0.1.Final'
-    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.17.1'
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+
     compileOnly 'org.projectlombok:lombok:1.18.34'
     annotationProcessor 'org.projectlombok:lombok:1.18.34'
-    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.1.0'
-    implementation 'org.modelmapper:modelmapper:3.1.1'
-    implementation 'com.mysql:mysql-connector-j:8.3.0'
-    implementation 'org.springframework.data:spring-data-envers'
-    implementation 'org.hibernate:hibernate-envers:6.3.0.Final'
-    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+
+    // For testing
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+application {
+    mainClass = 'com.retrowalk.organisationManagement'
 }

@@ -33,7 +33,7 @@
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-lang3:3.14.0" level="project" />
     <orderEntry type="library" name="Gradle: org.modelmapper:modelmapper:3.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.mysql:mysql-connector-j:8.3.0" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-envers:3.3.4" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.data:spring-data-envers:3.3.2" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jetty-server:12.0.13" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.ee10.websocket:jetty-ee10-websocket-jakarta-server:12.0.13" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty.ee10:jetty-ee10-webapp:12.0.13" level="project" />

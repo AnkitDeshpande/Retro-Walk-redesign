@@ -6,10 +6,11 @@ import jakarta.persistence.TemporalType;
 import lombok.Data;
 
 import java.util.Date;
+import java.util.Set;
 
 @Data
 public class SignUpRequest {
-
+    private Long id;
     private String username;
     private String password;
     private String email;
@@ -19,5 +20,5 @@ public class SignUpRequest {
     @Temporal(TemporalType.DATE)
     private Date dateOfBirth;
     private String profilePictureUrl;
-    private AddressRequest address;
+    private Set<AddressRequest> addresses;
 }
