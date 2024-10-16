@@ -1,6 +1,6 @@
 package com.retrowalk.service.impl;
 
-import com.retrowalk.dtos.EmailDetailDTO;
+import com.retrowalk.dto.EmailDetailDTO;
 import com.retrowalk.service.EmailService;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;

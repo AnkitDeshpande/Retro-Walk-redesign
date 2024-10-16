@@ -1,4 +1,4 @@
-package com.retrowalk.dtos;
+package com.retrowalk.dto;
 
 import lombok.Builder;
 import lombok.Data;

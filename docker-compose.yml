@@ -1,8 +1,7 @@
-version: '3.8'
 services:
   rabbitmq:
     container_name: rabbitmq-new
-    image: rabbitmq:3-management
+    image: rabbitmq:4-management
     ports:
       - "54321:5672"  # Host port 54321 mapped to container port 5672
       - "54322:15672"  # Host port 54322 mapped to container port 15672
