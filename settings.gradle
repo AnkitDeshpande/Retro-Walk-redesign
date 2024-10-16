@@ -3,7 +3,6 @@ include 'core'
 include 'document-manager'
 include 'multitenant'
 include 'auth-app'
-include 'notification-engine'
 include 'org-management'
 include 'shop-management'
 
