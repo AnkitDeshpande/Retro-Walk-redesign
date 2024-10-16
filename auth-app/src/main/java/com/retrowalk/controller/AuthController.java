@@ -5,7 +5,9 @@ import com.retrowalk.dto.requestDto.SignUpRequestDto;
 import com.retrowalk.dto.responseDto.LoginResponseDto;
 import com.retrowalk.dto.responseDto.SignUpResponseDto;
 import com.retrowalk.entities.User;
+import com.retrowalk.enums.Headers;
 import com.retrowalk.enums.SuccessMessage;
+import com.retrowalk.models.request.ChangePasswordRequest;
 import com.retrowalk.models.request.SignUpRequest;
 import com.retrowalk.repository.UserRepository;
 import com.retrowalk.service.UserService;
@@ -18,10 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
@@ -50,7 +49,7 @@ public class AuthController {
         return SuccessResponse.<LoginResponseDto>builder()
                 .data(loginResponse)
                 .statusCode(SuccessMessage.LOGIN_SUCCESS.getCode())
-                .message("Login successful")
+                .message(SuccessMessage.LOGIN_SUCCESS.getMessage())
                 .build();
     }
 
@@ -63,6 +62,27 @@ public class AuthController {
                 .data(dtoTOSend)
                 .statusCode(SuccessMessage.SIGN_UP_SUCCESS.getCode())
                 .message(SuccessMessage.SIGN_UP_SUCCESS.getMessage())
+                .build();
+    }
+
+    @PostMapping("/logout")
+    public SuccessResponse<String> logout(@RequestHeader("token") String token) {
+
+        return SuccessResponse.<String>builder()
+                .data(null)
+                .statusCode(SuccessMessage.LOGOUT_SUCCESS.getCode())
+                .message(SuccessMessage.LOGOUT_SUCCESS.getMessage())
+                .build();
+    }
+
+    @PostMapping("/reset-password")
+    public SuccessResponse<String> resetPassword(@RequestBody ChangePasswordRequest passwordResetDto) {
+
+
+        return SuccessResponse.<String>builder()
+                .data(null)
+                .statusCode(SuccessMessage.RESET_PASSWORD.getCode())
+                .message(SuccessMessage.RESET_PASSWORD.getMessage())
                 .build();
     }
 }

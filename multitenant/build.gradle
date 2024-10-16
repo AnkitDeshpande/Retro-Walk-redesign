@@ -2,11 +2,16 @@ plugins {
     id 'org.springframework.boot' version '3.3.4'
     id 'io.spring.dependency-management' version '1.1.6'
     id 'java'
+    id 'application'
     id 'idea'
 }
 
 group = 'com.retrowalk'
 version = '0.0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
 
 tasks.named("bootJar") {
     enabled = false
@@ -16,11 +21,9 @@ tasks.named("jar") {
     enabled = true
 }
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
+    implementation project(':core')
+
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.3.0'
     implementation 'org.springframework.boot:spring-boot-starter-security:3.3.0'
     implementation 'org.springframework.boot:spring-boot-starter-websocket:3.2.3'
@@ -46,4 +49,8 @@ dependencies {
     implementation 'org.springframework.data:spring-data-envers:3.3.2'
     implementation 'org.hibernate:hibernate-envers:6.3.0.Final'
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+}
+
+application {
+
 }

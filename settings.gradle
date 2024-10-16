@@ -1,19 +1,9 @@
 rootProject.name = 'retro-walk-redesign'
-
-def includeProjects(Map<String, String> projects) {
-    projects.each { key, value ->
-        include key
-        findProject(key)?.name = value
-    }
-}
-
-includeProjects([
-        ':common:core'               : 'core',
-        ':common:auth-app'           : 'auth-app',
-        ':common:multitenant'        : 'multitenant',
-        ':common:notification-engine': 'notification-engine',
-        ':common:document-manager'   : 'document-manager',
-        ':platform:org-management'   : 'org-management',
-        ':platform:shop-management'  : 'shop-management'
-])
+include 'core'
+include 'document-manager'
+include 'multitenant'
+include 'auth-app'
+include 'notification-engine'
+include 'org-management'
+include 'shop-management'
 

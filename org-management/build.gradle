@@ -9,6 +9,10 @@ plugins {
 group = 'com.retrowalk'
 version = '0.0.1-SNAPSHOT'
 
+tasks.named("bootJar") {
+    enabled = true
+}
+
 tasks.named("jar") {
     enabled = false
 }
@@ -18,8 +22,8 @@ repositories {
 }
 
 dependencies {
-    implementation project(':common:core')
-    implementation project(':common:auth-app')
+    implementation project(':core')
+    implementation project(':auth-app')
 
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-amqp'

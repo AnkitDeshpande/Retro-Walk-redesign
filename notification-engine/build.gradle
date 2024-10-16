@@ -22,20 +22,24 @@ repositories {
 }
 
 dependencies {
-    implementation project(':common:core')
-    implementation project(':common:auth-app')
+    // Include dependencies from parent
+    implementation project(':core')
+    implementation project(':multitenant')
 
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // Unique dependencies for this child module
+    implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-amqp'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
 
+    // Lombok for compile-time annotation processing
     compileOnly 'org.projectlombok:lombok:1.18.34'
     annotationProcessor 'org.projectlombok:lombok:1.18.34'
-
-    // For testing
-    testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 application {
-    mainClass = 'com.retrowalk.ShopManagement'
+    mainClass = 'com.retrowalk.NotificationEngine'
 }

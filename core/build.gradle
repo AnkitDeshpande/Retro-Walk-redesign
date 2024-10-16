@@ -2,7 +2,6 @@ plugins {
     id 'org.springframework.boot' version '3.3.4'
     id 'io.spring.dependency-management' version '1.1.6'
     id 'java'
-    id 'application'
     id 'idea'
 }
 
@@ -10,11 +9,11 @@ group = 'com.retrowalk'
 version = '0.0.1-SNAPSHOT'
 
 tasks.named("bootJar") {
-    enabled = true
+    enabled = false
 }
 
 tasks.named("jar") {
-    enabled = false
+    enabled = true
 }
 
 repositories {
@@ -22,8 +21,6 @@ repositories {
 }
 
 dependencies {
-    implementation project(':common:core')
-    implementation project(':common:multitenant')
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.3.0'
     implementation 'org.springframework.boot:spring-boot-starter-security:3.3.0'
     implementation 'org.springframework.boot:spring-boot-starter-websocket:3.2.3'
@@ -44,13 +41,7 @@ dependencies {
     compileOnly 'jakarta.servlet:jakarta.servlet-api:6.1.0'
     implementation 'org.modelmapper:modelmapper:3.1.1'
     implementation 'com.mysql:mysql-connector-j:8.3.0'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:3.3.0'
-    testImplementation 'org.springframework.security:spring-security-test:6.3.0'
     implementation 'org.springframework.data:spring-data-envers:3.3.2'
     implementation 'org.hibernate:hibernate-envers:6.3.0.Final'
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
-}
-
-application {
-    mainClass = 'com.retrowalk.AuthenticationApplication'
 }
