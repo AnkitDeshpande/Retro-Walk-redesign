@@ -66,7 +66,7 @@ public class AuthController {
     }
 
     @PostMapping("/logout")
-    public SuccessResponse<String> logout(@RequestHeader("token") String token) {
+    public SuccessResponse<String> logout() {
 
         return SuccessResponse.<String>builder()
                 .data(null)

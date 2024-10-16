@@ -5,6 +5,7 @@ import com.retrowalk.exception.RetrowalkException;
 import com.retrowalk.models.request.ChangePasswordRequest;
 import com.retrowalk.repository.UserRepository;
 import com.retrowalk.service.AuthService;
+import com.retrowalk.service.EmailService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -21,6 +22,8 @@ public class AuthServiceImpl implements AuthService {
     private final UserRepository userRepository;
 
     private final PasswordEncoder passwordEncoder;
+
+    private final EmailService emailService;
 
     @Override
     @Transactional
