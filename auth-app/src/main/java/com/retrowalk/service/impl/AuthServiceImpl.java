@@ -65,7 +65,7 @@ public class AuthServiceImpl implements AuthService {
         User user = userRepository.findByUsername(username);
         if (user != null) {
 
-            user.setPassword(passwordEncoder.encode(changePasswordRequest.getNewPassword()));
+            user.setPassword(passwordEncoder.encode(changePasswordRequest.getNewPasswordd()));
             userRepository.save(user);
 
         } else {
@@ -74,7 +74,7 @@ public class AuthServiceImpl implements AuthService {
     }
 
     @Override
-    public void logout() {
+    public void logout(String token) {
         // Implement your logout logic here, such as invalidating tokens or session
     }
 }

@@ -13,6 +13,6 @@ public interface AuthService {
 
     void changePassword(String username, ChangePasswordRequest changePasswordRequest);
 
-    void logout();
+    void logout(String token);
 }
 
