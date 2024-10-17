@@ -11,5 +11,7 @@ public class ChangePasswordRequest {
     private Long id;
     private String username;
     private String email;
+    private String oldPassword;
     private String newPassword;
+    private String confirmPassword;
 }

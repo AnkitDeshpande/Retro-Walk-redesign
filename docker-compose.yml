@@ -1,10 +1,10 @@
 services:
   rabbitmq:
-    container_name: rabbitmq-new
-    image: rabbitmq:4-management
+    container_name: retrowalk-rabbitmq  # Naming the container for easy reference
+    image: rabbitmq:4-management  # RabbitMQ image with management plugin
     ports:
-      - "54321:5672"  # Host port 54321 mapped to container port 5672
-      - "54322:15672"  # Host port 54322 mapped to container port 15672
+      - "5555:5672"     # Mapping host port 5555 to container port 5672 (RabbitMQ default)
+      - "55555:15672"   # Mapping host port 55555 to container port 15672 (Management UI)
     environment:
-      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USERNAME} # RabbitMQ username
-      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD} # RabbitMQ password
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USERNAME}  # RabbitMQ username from environment variable
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD}  # RabbitMQ password from environment variable

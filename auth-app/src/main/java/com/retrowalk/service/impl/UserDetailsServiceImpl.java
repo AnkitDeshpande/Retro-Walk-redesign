@@ -1,12 +1,17 @@
 package com.retrowalk.service.impl;
 
-import com.retrowalk.dto.requestDto.AddressRequestDto;
 import com.retrowalk.entities.Address;
+import com.retrowalk.entities.Role;
 import com.retrowalk.entities.User;
+import com.retrowalk.enums.ErrorMessage;
+import com.retrowalk.enums.MailConfigEnum;
 import com.retrowalk.exception.RetrowalkException;
 import com.retrowalk.models.AddressRequest;
+import com.retrowalk.models.request.EmailDetails;
+import com.retrowalk.models.request.PasswordRequest;
 import com.retrowalk.models.request.SignUpRequest;
 import com.retrowalk.repository.UserRepository;
+import com.retrowalk.service.EmailService;
 import com.retrowalk.service.UserService;
 import com.retrowalk.utility.Mapper;
 import jakarta.transaction.Transactional;
@@ -14,8 +19,11 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
@@ -30,6 +38,10 @@ import java.util.Set;
 public class UserDetailsServiceImpl implements UserDetailsService, UserService {
 
     private final UserRepository userRepository;
+
+    private final EmailService emailService;
+
+    private final PasswordEncoder passwordEncoder;
 
     private final Mapper mapper = new Mapper();
 
@@ -85,6 +97,12 @@ public class UserDetailsServiceImpl implements UserDetailsService, UserService {
         userToSave.setPhoneNumber(signUpRequest.getPhoneNumber());
         userToSave.setDateOfBirth(signUpRequest.getDateOfBirth());
         userToSave.setProfilePictureUrl(signUpRequest.getProfilePictureUrl());
+        if (Objects.isNull(signUpRequest.getId())) {
+            Role role = new Role();
+            role.setName(com.retrowalk.enums.Role.BASIC_USER.getValue());
+            role.setDescription(com.retrowalk.enums.Role.BASIC_USER.getValue());
+            userToSave.getRoles().add(role);
+        }
 
         User savedUser = userRepository.save(userToSave);
 
@@ -118,6 +136,49 @@ public class UserDetailsServiceImpl implements UserDetailsService, UserService {
             }
         }
 
+        if (Objects.isNull(signUpRequest.getId())) {
+            emailService.sendActivationEmail(EmailDetails.builder()
+                    .messageBody(MailConfigEnum.REGISTRATION_SUCCESS.getValue())
+                    .recipient(signUpRequest.getEmail())
+                    .subject(MailConfigEnum.REGISTRATION_SUCCESS.name())
+                    .build());
+        }
+
         return userRepository.save(savedUser);
+    }
+
+    @Override
+    public User findByUsername(String username) {
+        return userRepository.findByUsername(username);
+    }
+
+    @Override
+    public User save(User user) {
+        return userRepository.save(user);
+    }
+
+    @Override
+    public boolean activateUser(String email, String token, String expiresAt, PasswordRequest passwordRequest) {
+        User user = userRepository.findByEmail(email).orElseThrow(() -> new RetrowalkException(404, "User not found with email : " + email));
+
+        if (Objects.isNull(user)) {
+            return false;
+        }
+
+        LocalDateTime expirationTime = LocalDateTime.parse(expiresAt, DateTimeFormatter.ISO_LOCAL_DATE_TIME);
+        if (expirationTime.isBefore(LocalDateTime.now())) {
+            return false;
+        }
+
+        if (!passwordRequest.getPassword().equals(passwordRequest.getConfirmPassword())) {
+            throw new RetrowalkException(ErrorMessage.PASSWORDS_DO_NOT_MATCH.getCode(),
+                    ErrorMessage.PASSWORDS_DO_NOT_MATCH.getMessage());
+        }
+
+        user.setPassword(passwordEncoder.encode(passwordRequest.getPassword()));
+        user.setActive(Boolean.TRUE);
+        user.setEmailVerified(Boolean.TRUE);
+        userRepository.save(user);
+        return true;
     }
 }

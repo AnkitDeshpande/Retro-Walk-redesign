@@ -1,12 +1,15 @@
 package com.retrowalk.entities;
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 import java.io.Serializable;
 import java.util.Objects;
 
-@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @MappedSuperclass
 public class CommonBaseModel implements Serializable, Cloneable {
     /**

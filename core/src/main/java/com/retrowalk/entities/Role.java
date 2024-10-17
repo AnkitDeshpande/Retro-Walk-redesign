@@ -3,20 +3,22 @@ package com.retrowalk.entities;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 
-@EqualsAndHashCode(callSuper = true)
+
 @Entity
-@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @Table(name = "roles")
 public class Role extends AuditCommonBaseModel implements GrantedAuthority {
 
     /**
      * Role name, must be unique and not null.
      */
-    @Column(name = "name", nullable = false, unique = true, length = 50)
+    @Column(name = "name", nullable = false, length = 50)
     private String name;
 
     /**

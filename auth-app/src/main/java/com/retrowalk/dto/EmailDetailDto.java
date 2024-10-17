@@ -7,7 +7,7 @@ import java.util.Map;
 
 @Data
 @Builder
-public class EmailDetailDTO {
+public class EmailDetailDto {
     private String to;
     private String subject;
     private Map<String, Object> dynamicValue;

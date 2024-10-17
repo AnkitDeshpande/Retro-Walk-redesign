@@ -10,7 +10,7 @@ public enum SuccessMessage {
     SIGN_UP_SUCCESS(200, "sign.up.success"),
     LOGIN_SUCCESS(200, "login.success"),
     LOGOUT_SUCCESS(200, "logout.success"),
-    MAIL_SUCCESS(200, "mail.sent.success"),
+    USER_ACTIVATED(200, "user.activated.success"),
     RESET_PASSWORD(200, "reset.password");
 
 

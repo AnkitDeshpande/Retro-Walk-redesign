@@ -2,12 +2,14 @@ package com.retrowalk.repository;
 
 import com.retrowalk.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
 
 /**
  * Repository interface for accessing User data.
  */
+@Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
     /**
