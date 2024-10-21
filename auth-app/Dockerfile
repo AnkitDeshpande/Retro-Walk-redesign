@@ -1,5 +1,6 @@
 # Base image: OpenJDK 17 (slim version for smaller image size)
 FROM openjdk:17-jdk-slim
+RUN ./gradlew :auth-app:bootJar
 
 # ARG to pass the jar file and other build-time configurations
 ARG JAR_FILE
