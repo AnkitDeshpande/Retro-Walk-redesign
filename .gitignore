@@ -4,7 +4,6 @@
 .gradle/
 
 # Ignore .jar, .war, and .ear files
-*.jar
 *.war
 *.ear
 
