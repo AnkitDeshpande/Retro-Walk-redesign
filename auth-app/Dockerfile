@@ -1,5 +1,16 @@
 # Base image: OpenJDK 17 (slim version for smaller image size)
 FROM openjdk:17-jdk-slim
+# Copy the Gradle wrapper and build files
+COPY gradlew .
+COPY gradle gradle
+COPY build.gradle .
+COPY settings.gradle .
+
+# Copy the source code for all modules
+COPY auth-app auth-app
+COPY core core
+
+# Build the specific module (auth-app)
 RUN ./gradlew :auth-app:bootJar
 
 # ARG to pass the jar file and other build-time configurations
