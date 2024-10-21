@@ -5,8 +5,8 @@ RUN ./gradlew bootJar
 RUN mv -f build/libs/*.jar app.jar
 
 FROM openjdk:17-jdk-slim
-ARG PORT
-ENV PORT=${PORT}
+ARG APP_PORT
+ENV PORT=${APP_PORT}
 COPY --from=build /app/app.jar .
 RUN useradd runtime
 USER runtime
