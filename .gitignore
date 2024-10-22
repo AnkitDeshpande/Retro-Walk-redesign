@@ -126,3 +126,4 @@ jacoco.exec
 !gradlew.bat
 !settings.gradle
 !build.gradle
+/auth-app/.run/AuthApp.run.xml
